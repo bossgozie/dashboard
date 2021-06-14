@@ -1,0 +1,430 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: aqua;
+}
+
+.container { 
+    background-color: rgba(242, 248, 255, 1);
+    height: 680px;
+    width: 1312px;
+    
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-bottom: 200px;
+    margin-right: 100px;
+    
+}
+
+.menu-list ul{
+    list-style-type: none;
+    margin-top: 10px;
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+
+.menu-list ul li{
+    padding-top: 30px;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+
+.icon{
+   padding-right: 20px; 
+}
+
+.logout{
+    margin-top: 60px;
+    color: red;
+}
+
+
+.top-content-search p {
+    
+
+    
+    
+    
+    margin-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+    
+    
+}
+
+.top-content-search>p>span{
+    padding-left: 40px;
+    color: rgba(177, 186, 205, 1);
+}
+
+.top-content-name>p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+
+    
+   
+}
+
+
+.top-content-img>img{
+    margin-top: 10px;
+    height: 60px;
+}
+
+
+.major-colum-1-row-1>p{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.major-colum-1-row-1>img{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.major-colum-1-row-2>p{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.major-colum-1-row-2>img{
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+.row1-img{
+    margin-left: 20px;
+    width: 62%;
+    
+
+}
+
+
+.major-colum-3-row-1{
+
+}
+
+
+.major-colum-1-row-3>p{
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.major-colum-1-row-3>img{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+
+.major-colum-2-row-1>p{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.major-colum-2-row-2>p{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.major-colum-2-row-1>img{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.major-colum-2-row-2>img{ 
+    padding-left: 30px;
+    padding-top: 20px;
+ }
+
+ .major-colum-2-row-2>h6{
+     font-size: 15px;
+     padding-top: 10px;
+     padding-left: 30px;
+     color: rgba(100, 84, 84, 0.63);
+ }
+
+.row2-img{
+    width: 300px;
+}
+
+.major-colum-3-row-1>p{ 
+
+
+font-size: 20px;
+font-weight: bold;
+padding-left: 30px;
+padding-top: 20px;
+ }
+
+
+ .major-colum-3-row-1>img{
+     margin-top: 20px;
+     margin-left: 30px;
+ }
+
+
+ .major-colum-3-row-2>p{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 20px;
+
+ }
+
+
+ .major-colum-3-row-2>img{
+    margin-top: 20px;
+    margin-left: 30px;
+ }
+
+ .major-colum-3-row-3>p{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 20px;
+ }
+
+ .major-colum-3-row-3>img{
+     padding-left: 20px;
+ }
+
+
+
+ @media  (min-width: 320px) and (max-width: 800px) {
+
+
+    body{
+    
+    }
+    body .container{
+        display: none;
+     } 
+
+     body{
+        background-color: rgba(242, 248, 255, 1); 
+         
+     }
+     .container-2{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        background-color: rgba(242, 248, 255, 1); 
+        height: 100vh;   
+        width: 100%;
+        row-gap: 30px;
+     }
+      
+     .row-1{
+         background-color: rgba(64, 156, 134, 0.52);
+         grid-row: 1;
+         border-radius: 15px;
+         
+         height: 132px;
+         border-radius: 15px;
+     }
+
+     .menu-icon{
+         position: relative;
+     }
+
+     .picture{
+         position: absolute;
+         right: 100px;
+          bottom: -100px;
+     }
+
+     .icon{
+         position: absolute;
+         left: 50px;
+         bottom: -100px;
+         
+         color:black;
+    }
+
+     }
+
+     
+      
+     .row-2{
+    
+        grid-row: 2;
+        border-radius: 15px;
+         height: 132px;
+
+    }
+
+.hero-greet{
+    position: relative;
+  
+}
+
+.greeting{
+    left: 50px;
+top: 10px;
+    position: absolute;
+}
+
+.invite-btn{
+    position: absolute;
+    right: 100px;
+    top: 10px;
+}
+
+.pdf-btn{
+    position: absolute;
+    left: 50px;
+    top: 90px;
+}
+
+    
+      
+    .row-3{
+        margin-left: 20px;
+        margin-right: 50px;
+       
+         height: 132px;
+         border-radius: 15px;
+        background-color:rgba(253, 255, 255, 1);
+        grid-row: 3;
+    }
+
+    .fitness{
+    position: relative;
+    }
+    .fit{
+        position: absolute;
+        text-align: center;
+        left: 40px;
+        top: 30px;
+    }
+
+    .file1{
+        position: absolute;
+        left: 40px;
+        top: 90px;
+    }
+
+    .download-btn1{
+        position: absolute;
+        right: 30px;
+        top: 30px;
+    }
+
+    
+      
+    .row-4{
+        background-color:rgba(253, 255, 255, 1);
+        margin-left: 20px;
+        margin-right: 50px;
+        grid-row: 4;
+        height: 152px;
+        border-radius: 15px;
+        
+    }
+
+
+    .main-row4{
+        position: relative;
+        
+
+    }
+
+    .laptop{
+        position: absolute;
+        left: 40px;
+        top: 10px;
+    }
+
+    .file2{
+        position: absolute;
+        left: 40px;
+        top: 120px;
+
+    }
+
+    .download-btn2{
+        position: absolute;
+        right: 30px;
+        top: 30px;
+    }
+    
+      
+    .row-5{
+        
+        background-color:rgba(253, 255, 255, 1);
+        margin-left: 20px;
+        margin-right: 50px;
+        height: 172px;
+        grid-row: 5;
+        border-radius: 15px;
+        
+    }
+
+    .main-row5{
+        position: relative;
+       
+      
+    }
+
+    .completed{
+        top: 5px;
+        left: 50px;
+        position: absolute;
+    }
+
+    .doc-img{
+        top: 30px;
+        left: 50px;
+        position: absolute;
+    }
+
+    .file3{
+        position: absolute;
+        left: 50px;
+        top: 140px;
+    }
+
+    .download-btn3{
+        position: absolute;
+        right: 30px;
+        top: 30px;
+      
+      
+      
+    }
+
+    
+      
+    .row-6{
+        
+        grid-row: 6;
+    }
+
+
+
+     
+    .row-6>img{
+        width: 100%;
+    }
